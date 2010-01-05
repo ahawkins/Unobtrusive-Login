@@ -1,0 +1,6 @@
+$('MB_content').update("<%= escape_javascript(render :partial => 'form') %>");
+Modalbox.resizeToContent();
+$('new_user_session').observe('submit', function(event) {
+	event.stop();
+	this.request();
+});
