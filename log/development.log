@@ -329,3 +329,1432 @@ Rendering template within layouts/application
 Rendering user_sessions/new
 Rendered user_sessions/_form (4.2ms)
 Completed in 21ms (View: 10, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:01:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+
+ActionView::TemplateError (undefined method `javascript_link_tag' for #<ActionView::Base:0x1030b4a60>) on line #7 of app/views/layouts/application.html.erb:
+4:   <head>
+5:     <title><%= h(yield(:title) || "Untitled") %></title>
+6:     <%= stylesheet_link_tag 'application' %>
+7:     <%= javascript_link_tag :defaults %>
+8:     <%= yield(:head) %>
+9:   </head>
+10:   <body>
+
+    app/views/layouts/application.html.erb:7
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (27.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:01:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 87ms (View: 85, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:17:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:17:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:25:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+
+ActionView::TemplateError (undefined method `stylesheet_ling_tag' for #<ActionView::Base:0x102ecd0d0>) on line #7 of app/views/layouts/application.html.erb:
+4:   <head>
+5:     <title><%= h(yield(:title) || "Untitled") %></title>
+6:     <%= stylesheet_link_tag 'application' %>
+7:     <%= stylesheet_ling_tag 'modalbox' %>
+8:     <%= javascript_include_tag :defaults %>
+9:     <%= javascript_include_tag 'modalbox'%>
+10:     <%= yield(:head) %>
+
+    app/views/layouts/application.html.erb:7
+
+Rendered rescues/_trace (119.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:25:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:26:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (4.5ms)
+Completed in 445ms (View: 17, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:26:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:26:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:26:51) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 152ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:26:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:27:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:27:05) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:27:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:27:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:27:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:27:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:29:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:30:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 12:30:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:30:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 17ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:30:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 12:30:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:30:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:35:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 35ms (View: 9, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:35:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:35:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:35:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:35:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 12:35:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:35:29) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:46:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:47:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 12:47:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:47:03) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 59ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:49:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 111ms (View: 29, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:53:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:53:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:53:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:53:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 12:53:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 12:53:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 12:53:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 152ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 12:53:39) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfds') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (4.5ms)
+Completed in 282ms (View: 8, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:01:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:01:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:01:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:01:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.5ms)
+Completed in 225ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:08:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:08:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.1ms)
+Completed in 49ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:08:35) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.7ms)
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:08:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:08:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:08:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:09:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:09:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:09:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:09:12) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.7ms)
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:09:20) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.6ms)
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:31:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:32:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:32:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.6ms)
+Completed in 125ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:32:04) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adfs"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adfs') LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template user_sessions/create.erb in view path app/views):
+  app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:32:06) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adfs"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adfs') LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template user_sessions/create.erb in view path app/views):
+  app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:32:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:33:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:33:03) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:33:13) [GET]
+
+ActionController::RoutingError (No route matches "/user_sessions/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:33:16) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:33:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:33:23) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/user_sessions_controller.rb:15:in `html'
+  app/controllers/user_sessions_controller.rb:15:in `create'
+  app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (38.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-01-05 13:33:45) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+SyntaxError (/Users/adam/Sites/nettuts-unobtrusive-login/app/controllers/user_sessions_controller.rb:15: syntax error, unexpected tASSOC, expecting '}'
+        wants.html { render => :new }
+                              ^):
+  
+
+Rendered rescues/_trace (34.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:34:02) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 50ms (View: 39, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:34:04) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdf') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (4.0ms)
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:36:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:36:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.6ms)
+Completed in 104ms (View: 8, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:36:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:36:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:36:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:42:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:42:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:42:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 49ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:42:57) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 104ms (View: 91, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:42:59) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 14ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:19) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 14ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:22) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:25) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:26) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:26) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 14ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsfasdfasdfasdfadfafds"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsfasdfasdfasdfadfafds') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:43:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:43:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:43:51) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.6ms)
+Completed in 97ms (View: 86, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:43:54) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:44:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:44:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:44:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:44:30) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.2ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102b7d970>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $$('#MB_content div').first.update('<%= javascript_escape(render :partial => 'form') %>');
+2: $('#new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:44:32) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102cc50a8>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $$('#MB_content div').first.update('<%= javascript_escape(render :partial => 'form') %>');
+2: $('#new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (143.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:45:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:45:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:45:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:45:24) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102c354a8>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('#MB_content').update("<%= javascript_escape(render :partial => 'form') %>");
+2: $('#new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (135.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:45:26) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102e23170>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('#MB_content').update("<%= javascript_escape(render :partial => 'form') %>");
+2: $('#new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (49.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:45:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.7ms)
+Completed in 111ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:46:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:46:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:46:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:46:12) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adsfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adsfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102c37eb0>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('MB_content').update("<%= javascript_escape(render :partial => 'form') %>");
+2: $('new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (137.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:46:13) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adsfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adsfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102e2e610>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('MB_content').update("<%= javascript_escape(render :partial => 'form') %>");
+2: $('new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:46:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:46:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:46:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:46:45) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:47:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:47:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:47:47) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:47:50) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adsf') LIMIT 1[0m
+Rendering user_sessions/create
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x1036e3648>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('MB_content').update("<%= javascript_escape('asdfasdf') %>");
+2: $('new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (46.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:47:50) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adsf') LIMIT 1[0m
+Rendering user_sessions/create
+
+ActionView::TemplateError (undefined method `javascript_escape' for #<ActionView::Base:0x102b50560>) on line #1 of app/views/user_sessions/create.js.erb:
+1: $('MB_content').update("<%= javascript_escape('asdfasdf') %>");
+2: $('new_user_sessions').observe('submit', function(event) {
+3: 	event.stop();
+4: 	this.request();
+
+    app/views/user_sessions/create.js.erb:1
+    app/controllers/user_sessions_controller.rb:14:in `create'
+
+Rendered rescues/_trace (140.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:48:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:48:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:48:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 43ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:48:22) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:48:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.5ms)
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:48:55) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.5ms)
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:00) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_form (4.2ms)
+Completed in 21ms (View: 8, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:49:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:49:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:49:05) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:10) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.8ms)
+Completed in 105ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:49:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:30) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:32) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"a"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'a') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.2ms)
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:34) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"aasdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+Completed in 17ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:36) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"aasdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'aasdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.5ms)
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:49:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:49:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:49:58) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfasdf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfasdf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:50:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:50:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:50:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:50:17) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfadsf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfadsf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.5ms)
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 13:51:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 13:51:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:51:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:51:36) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"asdfsdf"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'asdfsdf') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.6ms)
+Completed in 107ms (View: 10, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:51:51) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"FakeUser"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:51:58) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.3ms)
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:52:14) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"FakeUser"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'fakeuser') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 13:52:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.7ms)
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 13:52:33) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"FakeUser"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'fakeuser') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.2ms)
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-01-05 14:01:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+SyntaxError (/Users/adam/Sites/nettuts-unobtrusive-login/app/controllers/user_sessions_controller.rb:18: syntax error, unexpected kELSE, expecting kEND
+/Users/adam/Sites/nettuts-unobtrusive-login/app/controllers/user_sessions_controller.rb:36: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 14:02:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 14:02:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 14:02:17) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.2ms)
+Completed in 52ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 14:02:27) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"adam"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adam') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 14:02:58) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"Adman65"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adman65') LIMIT 1[0m
+Rendering user_sessions/redirect
+Completed in 467ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-01-05 14:02:58) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 87ms (View: 10, DB: 0) | 200 OK [http://localhost/user]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-01-05 14:04:31) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/user_session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 14:04:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-01-05 14:04:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-05 14:04:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-01-05 14:04:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Rendered user_sessions/_form (3.4ms)
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/user_session/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 14:04:42) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"Adman65"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adman65') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.4ms)
+Completed in 23ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 14:04:58) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"Adman65"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adman65') LIMIT 1[0m
+Rendering user_sessions/create
+Rendered user_sessions/_form (4.3ms)
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-01-05 14:05:01) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"[FILTERED]", "login"=>"Adman65"}, "action"=>"create", "authenticity_token"=>"0Kp7WflI1GOTwX4FYMnZN6eKIj6/1H+NBiMXW2uyHCA=", "controller"=>"user_sessions", "_"=>""}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".login) = 'adman65') LIMIT 1[0m
+Rendering user_sessions/redirect
+Completed in 16ms (View: 1, DB: 0) | 200 OK [http://localhost/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-01-05 14:05:01) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 21ms (View: 7, DB: 0) | 200 OK [http://localhost/user]
