@@ -2,11 +2,12 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
   <head>
-    <title><%= h(yield(:title) || "Untitled") %></title>
-    <%= stylesheet_link_tag 'application' %>
-    <%= stylesheet_link_tag 'modalbox' %>
-    <%= javascript_include_tag :defaults %>
-    <%= javascript_include_tag 'modalbox'%>
+    <title><%= h(yield(:title) || "Untitled") %></title>    
+    <%= stylesheet_link_tag 'facebox' %>
+    <%= stylesheet_link_tag 'application' %>    
+    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'facebox' %>
+    <%= javascript_include_tag 'application' %>
     <%= yield(:head) %>
   </head>
   <body>
