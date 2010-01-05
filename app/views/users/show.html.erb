@@ -1,0 +1,4 @@
+<% title 'Welcome' %>
+<h2>Hello <%=h @user.login %></h2>
+
+<%= link_to 'Logout', user_session_path, :method => :delete %>

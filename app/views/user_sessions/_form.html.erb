@@ -1,0 +1,15 @@
+<% form_for(@user_session, :url => user_session_path) do |form| %>
+  <%= form.error_messages %>
+  
+  <p>
+    <%= form.label :login %>
+    <%= form.text_field :login %>
+  </p>
+  
+  <p>
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </p>
+
+  <%= form.submit 'Login' %>
+<% end %>
